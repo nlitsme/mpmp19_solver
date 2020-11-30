@@ -70,7 +70,6 @@ One can extrapolate this to:
     sum(p[i]^(18*k+2), i=1..19) is divisible by 19 for all k >= 0
 
 Using some python code to investigate this pattern, I found the following:
-You may notice that the values before `k` are the euler totient function values.
 
 
 |   n | power    |
@@ -91,6 +90,8 @@ You may notice that the values before `k` are the euler totient function values.
 |  83 |     82\*k+{46}                         |
 |  89 |     88\*k+{69}                         |
 |  97 |     96\*k+{62}                         |
+
+You may notice that the values before `k` are the euler totient function values.
 
 
 The general form of the sum can be written like this:
