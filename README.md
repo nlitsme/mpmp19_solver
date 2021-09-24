@@ -105,4 +105,25 @@ This becomes:
 
 So the 'somenumber times k' part of the observed behaviour can be explained.
 
+That still leaves the 'x' part:
+
+|   n | power    |
+| ---:| -------------------- |
+|  17 |     15                         |
+|  19 |     2                          |
+|  23 |     1, 13                      |
+|  25 |     3, 5, 7, 11, 15, 19        |
+|  31 |     15                         |
+|  37 |     2, 12, 18, 24              |
+|  41 |     28                         |
+|  43 |     8, 31                      |
+|  47 |     28, 31                     |
+|  53 |     1                          |
+|  59 |     11                         |
+|  61 |     30                         |
+|  79 |     58                         |
+|  83 |     46                         |
+|  89 |     69                         |
+|  97 |     62                         |
+
 
