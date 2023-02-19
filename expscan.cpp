@@ -15,7 +15,7 @@ c++ -o expscan -O3 expscan.cpp -std=c++17 -I cpputils -I primesieve/include prim
 #include <sys/time.h>
 
 #include <primesieve.hpp>
-#include "formatter.h"
+#include <cpputils/formatter.h>
 
 #include <gmpxx.h>
 

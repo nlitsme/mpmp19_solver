@@ -28,7 +28,7 @@ c++ -o mpmp19-128bit -O3 mpmp19-128bit.cpp -std=c++17 -I cpputils -I primesieve/
 #include <sys/time.h>
 
 #include <primesieve.hpp>
-#include "formatter.h"
+#include <cpputils/formatter.h>
 
 typedef unsigned __int128 BigInt;
 
